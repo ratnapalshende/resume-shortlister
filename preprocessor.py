@@ -18,7 +18,7 @@ def read_pdf(file):
     parsed = parser.from_buffer(file)
     text = parsed["content"]
     cleaned_text = clean(text)
-    return cleaned_text
+    return cleaned_text.split()
     
 
 def get_score(skills, resume_text):
@@ -26,7 +26,7 @@ def get_score(skills, resume_text):
     words = re.findall(r'\b[a-zA-Z]+\b', skills)
     matched_skill_count = 0
     for skill in words:
-        if skill.lower() in resume_text :
+        if skill.lower() in resume_text:
             print("matched_skill:",skill.lower())
             matched_skill_count +=1
     matching_score = (matched_skill_count / len(words)) * 100
