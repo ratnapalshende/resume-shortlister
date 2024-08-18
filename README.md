@@ -19,7 +19,7 @@ A web application that helps in shortlisting resumes based on specific skills an
 
 ## Live Demo
 
-Check out the live version of the app on Streamlit: [Resume Shortlister Live](#)
+Check out the live version of the app on Streamlit: [Resume Shortlister Live](https://resumeshortlister.streamlit.app/)
 
 ## Installation
 
