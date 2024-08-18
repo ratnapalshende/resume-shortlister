@@ -20,6 +20,10 @@ A web application that helps in shortlisting resumes based on specific skills an
 ## Live Demo
 
 Check out the live version of the app on Streamlit: [Resume Shortlister Live](https://resumeshortlister.streamlit.app/)
+### Glimpses see here:
+<img src="https://github.com/user-attachments/assets/8d8cbc4d-f87c-46ba-a656-064545a6c5d5" width=800 height=500 />
+<img src ="https://github.com/user-attachments/assets/2fccef1a-0dbf-4795-8774-b518aff535fa" width=800 height=500 />
+<img src ="https://github.com/user-attachments/assets/6b0f8eed-1360-4636-bb50-595b30193284" width=800 height=500 />
 
 ## Installation
 
@@ -38,7 +42,8 @@ To run this project locally, follow these steps:
    ```
 
 3. Install the required dependencies:
-
+   > To use this tika library, you need to have Java 7+ installed on your system as tika-python starts up the Tika REST server in the background.
+     Visit [Here](https://github.com/chrismattmann/tika-python) for tika installation.
    ```bash
    pip install -r requirements.txt
    ```
